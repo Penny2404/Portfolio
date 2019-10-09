@@ -1,0 +1,289 @@
+/*!
+Theme Name: Pennys portfolio tema
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Dette er dit tema
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    background-color: #f5f1f1; 
+    color: black;
+    font-family: gill Sans MT;
+}
+
+
+
+.velkommen_pernille{
+   /* margin: 5vh 0 5vh 0; */
+   padding: 5vh 0 5vh 0;
+    background-image:url("../img/klatf.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+
+.Velkommen{
+    font-size: 100px;
+    font-family: 'Tangerine', cursive;
+    color: black;
+    text-align: center;
+    font-weight: 500;    
+}
+
+.Navn{
+font-family: 'Raleway', sans-serif;
+font-size: 20px;
+text-align: center;
+font-weight: 100;
+
+}
+
+.menu{
+    list-style-type: none;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+       
+    background-color:rgb(221, 192, 192);
+}
+
+.menu_fotografering{
+    grid-column: 1;
+    color: #000000;
+    text-align: left;
+    
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .menu_projekter{
+    grid-column: 2;
+   color: #000000;
+    font-size: 17px;
+   }
+
+   .menu_forside{
+    grid-column: 3;
+    color: #000000;
+    text-decoration: none;
+    font-size: 17px;
+   }
+
+   .minpassion{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin-top: 100px;
+grid-gap: 0.5rem;
+margin-left: 15px;
+margin-right: 15px; 
+
+
+   }
+  .minpassiontekst{
+  grid-column-start: 1;
+
+}
+
+
+  .chris{
+    width: 100%;
+    grid-column-start: 2; 
+  }
+
+  .queen{
+    width: 100%;
+  grid-column-start: 3;
+  margin-top: 2%;
+}
+.mads{
+    width: 100%;
+    grid-column-start: 4;
+  margin-top: 2%;
+}
+
+.kato{
+    width: 100%;
+  grid-column-start: 2;
+  margin-top: 2%;
+}
+   
+.thomas{
+    width: 100%;
+  grid-column-start: 3;
+  margin-top: 2%;
+}
+.uak{
+    width: 100%;
+  grid-column-start: 4;
+  margin-top: 2%;
+}
+
+.produktoverskrift{
+  grid-column-start: 1;
+}
+.produkttekst{
+  grid-column-start: 1;
+
+}
+.vin{
+    width: 100%;
+  grid-column-start: 2;
+  margin-top: 2%;
+}
+.mojito{
+    width: 100%;
+  grid-column-start: 3;
+  margin-top: 2%;
+}
+.mave{
+    width: 100%;
+  grid-column-start: 4;
+  margin-top: 2%;
+}
+
+
+.migoverskrift{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  grid-gap: 1rem;
+  margin-left: 15px;
+  
+}
+.ommigtekst{
+  grid-column-start: 1;
+  
+  margin-top: 10%;
+}
+.penny{
+  
+    grid-column-start: 2;
+    width: 50%;
+    margin-left: 20%;
+    
+}
+
+.multioverskrift{
+  display: grid;
+  grid-template-columns: 1fr 1f;
+  grid-gap: 1rem;
+  margin-right: 15px;
+  margin-top: 10%;
+
+}
+.migsommultitekst{
+  grid-column-start: 1;
+}
+
+.gruppebillede{
+grid-column-start: 1;
+  width: 100%;
+  margin-top: 10%;
+
+}
+
+.ikonerfarve{
+  grid-column-start: 2;
+  width: 40%;
+  margin-left: 20%;
+  margin-top: -10%;
+
+}
+  .danfossoverskrift{
+    
+  margin-top: 50px;
+  margin-left: 30px;
+
+  }
+
+  .smykkeoverskrift{
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .egneoverskrift{
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+.kalender{
+  width: 15%;
+  margin-left: 30px;
+}
+
+.blomst{
+width: 10%;
+margin-left: 30px;
+}
+.julekrans{
+  width: 20%;
+  margin-left: 30px;
+  }
+  .ikonerfarver{
+    width:10%;
+    margin-left: 30px;
+  }
+.smykkereklame{
+  width: 470px;
+  margin-left: 30px;
+}
+.intro{
+  width: 470px;
+  margin-left: 30px;
+}
+.kalender{
+  width: 470;
+}
+
+.footer{
+    background-color: rgb(221, 192, 192);
+    font-family: "HP Simplified Light";
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: bottom;
+    margin-top: 15px;
+
+}
+
+.footerinfo{
+    list-style-type: none;
+    margin-top: 15px;
+    grid-column: 1;
+
+}
+
+.footerimg1{
+    grid-column: 1; 
+    width: 50px;
+    margin-top: 15px;
+}
+.footerimg2{
+    grid-column: 1;
+    width: 50px;
+    margin-top: 15px;
+}
+
+.footerimg3{
+    grid-column: 1;
+    width: 50px;
+    margin-top: 15px;
+}
